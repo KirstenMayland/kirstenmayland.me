@@ -1,13 +1,28 @@
+body {
+  font-size: 100%;
+  background-color: #DDD5D3;
+}
+
 p {
   text-indent: 40px;
+  color: #2F362F;
+  font-size: small;
+  font-family: 'Montserrat', sans-serif;
 }
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
 
 /* the navigation bar */
 .navbar {
+  font-family: 'Playfair Display', serif;
   overflow: hidden;
-  background-color: #bcbcf7;
+  background-color: #74665C;
   position: fixed;
   top: 0;
+  margin-left: -8px;
   width: 100%;
 }
 
@@ -23,18 +38,19 @@ p {
 
 /* change background on mouse-over */
 .navbar a:hover {
-  background: #c4c4fc;
-  color: gray;
+  background: #87766a;
+  color: #DBFCDB;
 }
 
 /* main content */
 .main {
-  margin-top: 60px;
+  margin-top: 100px;
+  margin-left: 50px;
 }
 
 img {
-  height: 250px;
+  height: 25em;
   background: #eaeaed;
   float: right;
-  margin: 20px 30px 0 20px;
+  margin: -20px 30px 0 20px;
 }
