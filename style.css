@@ -2,36 +2,34 @@ p {
   text-indent: 40px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/* the navigation bar */
+.navbar {
   overflow: hidden;
   background-color: #bcbcf7;
-  /* position: fixed;
-  margin-top: 0px;
-  width: 100%; */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-li {
+/* links inside */
+.navbar a {
   float: right;
-}
-
-li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
-  /* background-color: #bcbcf7; */
+  text-decoration: none;;
 }
 
-li a:hover {
-  background-color: #c4c4fc;
+/* change background on mouse-over */
+.navbar a:hover {
+  background: #c4c4fc;
+  color: gray;
 }
 
-.active {
-  background-color: #c3a5f4;
+/* main content */
+.main {
+  margin-top: 60px;
 }
 
 img {
