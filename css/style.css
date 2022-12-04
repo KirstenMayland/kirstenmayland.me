@@ -2,20 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
-  font-size: 100%;
+  font-size: 20px;
   height: 100%;
   background-color: #DDD5D3;
   margin: 0px;
   padding: 0px;
-  outline: none;
-  border: 0px;
+}
+
+main {
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 p {
   text-indent: 40px;
   color: #2F362F;
-  font-size: small;
+  font-size: 75%;
   font-family: 'Montserrat', sans-serif;
+  background-color: rgba(255, 255, 255, 0.909);
+  padding: 8px;
+  border-radius: 10px;
 }
 
 h1 {
@@ -32,8 +39,13 @@ h2 {
   font-size: large;
 }
 
+img {
+  width: 40%;
+  background: #eaeaed;
+  float: right;
+}
 
-/* the navigation bar */
+/* -------------- Navigation Bar on Top of All the Pages -------------- */
 .navbar {
   font-family: 'Playfair Display', serif;
   overflow: hidden;
@@ -41,10 +53,11 @@ h2 {
   position: fixed;
   top: 0;
   width: 100%;
+  font-size: 95%;
 }
 
 /* links inside */
-.navbar a {
+.navbar a { 
   float: right;
   display: block;
   color: white;
@@ -54,33 +67,40 @@ h2 {
 }
 
 /* change background on mouse-over */
-.navbar a:hover {
+.navbar a:hover { 
   background: #87766a;
   color: #DBFCDB;
 }
 
-main {
-  margin-top: 100px;
-  margin-left: 50px;
+/* -------------- Side Bars on All the Pages --------------
+.sidebarL {
+  border-left: 3em solid #9f8c7e;
+  height: 100%;
+  position: absolute;
+  margin-top: 49px;
+  top: 0;
 }
 
-img {
-  height: 25em;
-  background: #eaeaed;
-  float: right;
-  margin: -20px 30px 0 20px;
-}
+.sidebarR {
+  border-right: 3em solid #9f8c7e;
+  left: 92.3%;
+  height: 100%;
+  position: absolute;
+  margin-top: 49px;
+  top: 0;
+} */
 
+/* -------------- Banner on Orienteering Page -------------- */
 .banner-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/oringen-map.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -52px;
-  margin-left: -50px;
+  margin-top: 49px;
+  margin-left: 0%;
+  margin-right: 0%;
 }
-
 
 .banner-text {
   text-align: center;
