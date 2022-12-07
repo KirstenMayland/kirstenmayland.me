@@ -23,8 +23,9 @@
       </div>
     </div>
 
-    <!-- text -->
+    
     <main>
+      <!-- photo/text 1 -->
       <div id="photoTextBox">
         <p style="margin-top: -80px;">Lorem ipsum dolor sit amet adipiscing bibendum sem orci tempus aliquet gravida, orci amet iaculis aptent blandit quam
           accumsan donec in facilisis, cursus ante curabitur aliquet condimentum tincidunt facilisis non cubilia lorem et
@@ -37,6 +38,7 @@
           </div>
       </div>
 
+       <!-- photo/text 2 -->
       <div id="photoTextBox">
         <div id="image">
           <img src="../images/dvoaFinish.jpg" alt="finish at DVOA event" style="width: 25vw;">
@@ -47,6 +49,7 @@
           pretium aliquam phasellus ipsum metus quisque auctor tristique donec nibh.</p>
       </div>
 
+       <!-- photo/text 3 -->
       <div id="photoTextBox">
         <p>Lorem ipsum dolor sit amet adipiscing bibendum sem orci tempus aliquet gravida, orci amet iaculis aptent blandit quam
           accumsan donec in facilisis, cursus ante curabitur aliquet condimentum tincidunt facilisis non cubilia lorem et
@@ -57,10 +60,43 @@
         <div id="image">
           <img src="../images/dvoaMapSnippet.jpg" alt="piece of DVOA map" style="width: 25vw;">
         </div>
-
       </div>
 
     </main>
 
+    <!-- Slideshow container, modified from https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="../images/pawtuckaway.JPG" style="width:100%;">
+        <div class="text">Pawtuckaway Camping weekend</div>
+      </div> 
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/meWUOC.jpg" style="width:100%">
+        <div class="text">Me competing at WUOC 2022</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="../images/oSweatpants.JPG" style="width:100%">
+        <div class="text">Hanging out after an A-meet</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="../js/slideshow.js"></script>
   </body>
 </html>
