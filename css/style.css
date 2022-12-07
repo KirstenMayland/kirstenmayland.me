@@ -42,15 +42,20 @@ h2 {
 
 #photoTextBox {
   display: flex;
-  gap: 15%;
+  gap: 10%;
   align-items: center;
-  width: 100;
 }
 
+
 #image {
-  outline: auto rgba(255, 255, 255, 0.909);
-  outline-width: medium;
+  outline: solid medium rgba(255, 255, 255, 0.909);
   outline-offset: 7px;
+}
+
+#updown{
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
 }
 
 
